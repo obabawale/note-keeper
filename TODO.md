@@ -9,6 +9,7 @@ This is an application that keeps notes (more like todo list) for a specific use
 - [ ] Use alembic for database seeding
 - [ ] Add unit test for both the models and api
 - [ ] Dockerize the application
+- [ ] Add celery
 
 ### In Progress
 
