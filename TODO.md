@@ -3,7 +3,6 @@ This is an application that keeps notes (more like todo list) for a specific use
 
 ### Todo
 
-- [ ] Create crud operation for user class
 - [ ] Create crud operation for note class
 - [ ] Add note api inside api package
 - [ ] Use alembic for database seeding
@@ -12,9 +11,9 @@ This is an application that keeps notes (more like todo list) for a specific use
 - [ ] Add celery
 
 ### In Progress
+- [ ] Add base crud class
+- [ ] Add crud operation for user class
 
-- [ ] Add user schema with pydantic data validator
-- [ ] Add note schema with pydantic schema validator
 
 ### Done ✓
 
@@ -23,5 +22,7 @@ This is an application that keeps notes (more like todo list) for a specific use
 - [x] Create the project and run fastapi with uvicorn
 - [x] Create a skeletal project structure
 - [x] Create database connection
-- [x] Create configuration for Alembic, postgresql database
 - [x] Add alembic for migration
+- [x] Create configuration for Alembic, postgresql database
+- [x] Add user schema with pydantic data validator
+- [x] Add note schema with pydantic schema validator
