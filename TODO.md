@@ -3,17 +3,17 @@ This is an application that keeps notes (more like todo list) for a specific use
 
 ### Todo
 
-- [ ] Create crud operation for note class
 - [ ] Add note api inside api package
-- [ ] Use alembic for database seeding
+- [ ] Create script to run at startup for creating superuser
+- [ ] Add seed.py file for data seeding
 - [ ] Add unit test for both the models and api
 - [ ] Dockerize the application
 - [ ] Add celery
 
 ### In Progress
-- [ ] Add base crud class
-- [ ] Add crud operation for user class
 
+- [ ] Add functions to hash user password and verify user password at login
+- [ ] Add functions to create user token for CORS apps
 
 ### Done ✓
 
@@ -26,3 +26,6 @@ This is an application that keeps notes (more like todo list) for a specific use
 - [x] Create configuration for Alembic, postgresql database
 - [x] Add user schema with pydantic data validator
 - [x] Add note schema with pydantic schema validator
+- [x] Add base crud class
+- [x] Add crud operation for user class
+- [x] Create crud operation for note class
