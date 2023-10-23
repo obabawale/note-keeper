@@ -3,17 +3,16 @@ This is an application that keeps notes (more like todo list) for a specific use
 
 ### Todo
 
-- [ ] Add note api inside api package
-- [ ] Create script to run at startup for creating superuser
-- [ ] Add seed.py file for data seeding
 - [ ] Add unit test for both the models and api
-- [ ] Dockerize the application
 - [ ] Add celery
+- [ ] Add seed.py file for data seeding
+- [ ] Add note api inside api package
+- [ ] Dockerize the application
 
 ### In Progress
 
-- [ ] Add functions to hash user password and verify user password at login
-- [ ] Add functions to create user token for CORS apps
+- [ ] Initialize database with superuser
+- [ ] Create script to run at startup for creating superuser
 
 ### Done ✓
 
@@ -29,3 +28,5 @@ This is an application that keeps notes (more like todo list) for a specific use
 - [x] Add base crud class
 - [x] Add crud operation for user class
 - [x] Create crud operation for note class
+- [x] Add functions to hash user password and verify user password at login
+- [x] Add functions to create user token for CORS apps
